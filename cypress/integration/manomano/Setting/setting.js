@@ -1,8 +1,6 @@
 
 Given('I open Setting page', () => {
-    cy.visit(Cypress.env('url'))
-    localStorage.setItem('token', Cypress.env('token'))
-    localStorage.setItem('profile_info', Cypress.env('profile_info'))
+    cy.setCredential()
 })
 
 Then('I see disable button', () => {

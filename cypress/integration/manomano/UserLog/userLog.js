@@ -1,8 +1,6 @@
 
 Given('I open ManoMano with credential info', () => {
-    cy.visit(Cypress.env('url'))
-    localStorage.setItem('token', Cypress.env('token'))
-    localStorage.setItem('profile_info', Cypress.env('profile_info'))
+    cy.setCredential()
 })
 
 When('I navigate to User-Log', () => {

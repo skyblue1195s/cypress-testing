@@ -1,7 +1,7 @@
 import { Given, Then, When } from 'cypress-cucumber-preprocessor/steps';
 
 Given('I visit register page', () => {
-    cy.visit(Cypress.env('url'));
+    cy.visit('');
     cy.contains('Jetzt einrichten').click()
 })
 

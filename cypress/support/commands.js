@@ -42,3 +42,9 @@ Cypress.Commands.add('typeInputValue', (item, value) => {
  Cypress.Commands.add('changeSelectValue', (item, value) => {
     cy.get(item).select(value)
 })
+
+Cypress.Commands.add('setCredential', () => {
+    cy.visit('')
+    localStorage.setItem('token', Cypress.env('token'))
+    localStorage.setItem('profile_info', Cypress.env('profile_info'))
+})
