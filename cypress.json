@@ -1,0 +1,16 @@
+{
+    "projectId": "vb2rcv",
+    "env": {
+        "url": "https://manomano-staging.dreamrobot.net",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE2NTI4NjU4NjksImV4cCI6MTY1Mjk1MjI2OSwidXNlcm5hbWUiOiIxMTk4NjgyNDM4MzU0In0.m15q7sQTUWD46ETZ1dk3ywaN9dQGpnayey7zGkUflfn9NzaYczfyO-zpd9SUiluVMihk8sHriV753AIg56m31mp9nPnrjFl_tbKgb2WczCrkM5kEfh_1__Q0NeNhmq7PsWYgPP9ONnYFPWjt2DCZHcUhtkPts3VZXUDs3PbXoiqtIdv7XklsvOz23CwQRhk_VnxXRUVUl5TXC3MRRwshSqBSoao_yRsojTJaNkYjrGGGzuC6LjoDrFBtrijxABBukrFgFNm3CyA1hxpdl0BIGqhixkrrUC5RVuXb9DHWmNH7gcRNy3syRCOUfNOJ1KsWqkq6UldQgcVf2MTf4XK-fQ",
+        "profile_info": "{}"
+    },
+    "testFiles": [
+        "manomano/Setup.feature",
+        "manomano/Register.feature",
+        "manomano/Setting.feature",
+        "manomano/ApiHistory.feature",
+        "manomano/UserLog.feature",
+        "manomano/ConnectSubAccount.feature"
+    ]
+}
